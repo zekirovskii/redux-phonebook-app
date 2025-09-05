@@ -41,24 +41,41 @@ This app allows users to manage their contacts (add, delete, filter) with data p
 
 redux-phonebook-app/
 │── public/
+│   └── screenshots/
+│       └── phonebook-preview.png
+│
 │── src/
-│ ├── components/
-│ │ ├── App/
-│ │ │ ├── App.jsx
-│ │ │ └── App.module.css
-│ │ ├── ContactForm/
-│ │ ├── ContactList/
-│ │ ├── ContactItem/
-│ │ ├── Filter/
-│ │ └── Loader/
-│ ├── redux/
-│ │ ├── store.js
-│ │ ├── contactsSlice.js
-│ │ ├── filtersSlice.js
-│ │ └── contactsOps.js
-│ ├── main.jsx
-│ └── index.css
+│   ├── components/
+│   │   ├── App/
+│   │   │   ├── App.jsx
+│   │   │   └── App.module.css
+│   │   ├── ContactForm/
+│   │   │   ├── ContactForm.jsx
+│   │   │   └── ContactForm.module.css
+│   │   ├── ContactList/
+│   │   │   ├── ContactList.jsx
+│   │   │   └── ContactList.module.css
+│   │   ├── ContactItem/
+│   │   │   ├── ContactItem.jsx
+│   │   │   └── ContactItem.module.css
+│   │   ├── Filter/
+│   │   │   ├── Filter.jsx
+│   │   │   └── Filter.module.css
+│   │   └── Loader/
+│   │       ├── Loader.jsx
+│   │       └── Loader.module.css
+│   │
+│   ├── redux/
+│   │   ├── store.js
+│   │   ├── contactsSlice.js
+│   │   ├── filtersSlice.js
+│   │   └── contactsOps.js
+│   │
+│   ├── main.jsx
+│   └── index.css
+│
 │── package.json
+
 
 
 ---
