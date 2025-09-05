@@ -38,7 +38,7 @@ This app allows users to manage their contacts (add, delete, filter) with data p
 ---
 
 ## 📂 Project Structure
-
+```
 redux-phonebook-app/
 │── public/
 │   └── screenshots/
@@ -76,7 +76,7 @@ redux-phonebook-app/
 │
 │── package.json
 
-
+```
 
 ---
 
